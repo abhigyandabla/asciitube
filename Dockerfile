@@ -4,7 +4,11 @@ RUN pacman -Syu     --noconfirm \
 && pacman -S g++    --noconfirm \
 && pacman -S make   --noconfirm \
 && pacman -S wget   --noconfirm \
-&& pacman -S ncurse --noconfirms\
+&& pacman -S ncurse --noconfirm \
+&& pacman -S ffmpeg --noconfirm \
+&& pacman -S go     --noconfirm \
+&& go install github.com/qeesung/image2ascii@latest \
+
 && wget https://github.com/premake/premake-core/releases/download/v5.0.0-beta2/premake-5.0.0-beta2-linux.tar.gz \
 && tar -xvzf premake-5.0.0-beta2-linux.tar.gz \
 && chmod +x premake5 \

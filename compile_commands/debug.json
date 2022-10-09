@@ -1,0 +1,13 @@
+[
+          {
+            "directory": "/home/lpha/Documents/projects/gentobe",
+            "file": "/home/lpha/Documents/projects/gentobe/src/downloader.cpp",
+            "command": "cc -MMD -MP -DDEBUG -I/home/lpha/Documents/projects/gentobe/include -g -o /home/lpha/Documents/projects/gentobe/obj/Debug/downloader.o -MF /home/lpha/Documents/projects/gentobe/obj/Debug/downloader.d -c /home/lpha/Documents/projects/gentobe/src/downloader.cpp"
+          }
+,
+          {
+            "directory": "/home/lpha/Documents/projects/gentobe",
+            "file": "/home/lpha/Documents/projects/gentobe/src/main.cpp",
+            "command": "cc -MMD -MP -DDEBUG -I/home/lpha/Documents/projects/gentobe/include -g -o /home/lpha/Documents/projects/gentobe/obj/Debug/main.o -MF /home/lpha/Documents/projects/gentobe/obj/Debug/main.d -c /home/lpha/Documents/projects/gentobe/src/main.cpp"
+          }
+]

@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+*.log
+tmp/
+*.make
+*.out
+bin/
+obj/
+Makefile
+./compile_commands
+compile_commands.json
