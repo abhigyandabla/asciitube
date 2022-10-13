@@ -1,4 +1,4 @@
-## Isntructions 
+## Instructions 
 
 ### Run this script to verify packages
 ``` sh
